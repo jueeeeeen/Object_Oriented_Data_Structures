@@ -56,7 +56,7 @@ class list:
         return p.data
     
     def remove_tail(self):
-        if self.head == None: return self.head.data
+        if self.head == None: return
         if self.head.next == None:
             data = self.head
             self.head = None
